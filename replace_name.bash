@@ -1,9 +1,9 @@
 #!/bin/bash
 
-oldNamesString=$(cat  ./fontawesome-names/old.txt |tr "\n" " ")
+oldNamesString=$(cat  ./names-to-replace/old.txt |tr "\n" " ")
 oldNamesArray=($oldNamesString)
 
-newNamesString=$(cat  ./fontawesome-names/new.txt |tr "\n" " ")
+newNamesString=$(cat  ./names-to-replace/new.txt |tr "\n" " ")
 newNamesArray=($newNamesString)
 
 
